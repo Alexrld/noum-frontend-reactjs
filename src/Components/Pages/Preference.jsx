@@ -2,12 +2,7 @@ import React, { Fragment } from 'react'
 import { connect, useDispatch, useSelector } from 'react-redux'
 import Typography from '@material-ui/core/Typography'
 import { Button } from '@material-ui/core'
-
-//<<<<<<< HEAD:src/Components/Pages/Preference.jsx
 import { getDataProducts } from '../../redux/Actions/productActions'//test
-//=======
-//import {  getDataProducts } from '../redux/actions/product-actions'//test
-//>>>>>>> parent of 7396376 (noum-frontend v0.3):src/Components/Preference.jsx
 
 
 const Preference = () => {
